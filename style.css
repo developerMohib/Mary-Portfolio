@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
-.conatainer{
-    max-width: 1200px;
+.container{
+    max-width: 1024px;
     margin: auto;
 }
 
 img{
     max-width: 100%;
 }
-
+.primary-btn{
+    background-color:#fd6e0a ;
+    padding: 12px 17px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
 /* Header Custom CSS */
 
 nav{
@@ -20,10 +26,76 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-nav .menu{}
-nav .menu ul{}
-nav .menu ul li{}
+nav .logo span{
+    color:#fd6e0a;
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+}
+nav .menu ul{
+    display: flex;
+}
+nav .menu ul li{
+    list-style-type: none;
+}
 nav .menu ul li a{ 
+    padding: 10px 15px;
     text-decoration: none;
-    
+
+}
+/* Hero Section */
+.hero{
+    background-image: url(assests/header_bg.png);
+    background-position: right center;
+} 
+.maryHardy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mary-intro h3{
+    font-size: 30px;
+}
+.mary-intro h1{
+    font-size: 55px;
+}
+.mary-intro p {
+    color: gray;
+    width: 400px;
+    margin-bottom: 40px;
+}
+.hero .button .btn{
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+/* .mary-pic{
+    background-image: url(assests/header_bg.png);
+    background-size: cover;
+    background-position: center center;
+} */
+.mary-pic img{
+    width: 300px;
+}
+
+/* About Section */
+
+.about{
+    margin: 100px 0px;
+}
+.about-hardy{
+    background-color:#fd6f0a25 ;
+    text-align: center;
+    padding: 100px ;
+}
+.about-hardy p {
+    margin: 20px 0px;
+}
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
 }
