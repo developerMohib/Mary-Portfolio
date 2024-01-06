@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conatainer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header Custom CSS */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .menu{}
+nav .menu ul{}
+nav .menu ul li{}
+nav .menu ul li a{ 
+    text-decoration: none;
+    
+}
