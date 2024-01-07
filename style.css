@@ -2,10 +2,11 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -25,6 +26,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0px;
 }
 nav .logo span{
     color:#fd6e0a;
@@ -45,9 +47,10 @@ nav .menu ul li a{
 
 }
 /* Hero Section */
-.hero{
+header{
     background-image: url(assests/header_bg.png);
-    background-position: right center;
+    background-position: bottom right ;
+    background-repeat: no-repeat;
 } 
 .maryHardy{
     display: flex;
@@ -67,18 +70,12 @@ nav .menu ul li a{
 }
 .hero .button .btn{
     padding: 10px 15px;
-    color: white;
     text-decoration: none;
     border-radius: 4px;
     border: 1px solid black;
 }
-/* .mary-pic{
-    background-image: url(assests/header_bg.png);
-    background-size: cover;
-    background-position: center center;
-} */
 .mary-pic img{
-    width: 300px;
+    width: 520px;
 }
 
 /* About Section */
@@ -187,8 +184,11 @@ nav .menu ul li a{
     float: right;
     width: 500px;
 }
-form input{
+form input, textarea{
     padding: 10px;
     margin: 5px 0px; 
     width: 100%;
+}
+.form .primary-btn{
+    border: none;
 }
