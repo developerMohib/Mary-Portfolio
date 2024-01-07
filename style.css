@@ -99,3 +99,96 @@ nav .menu ul li a{
     justify-content: space-around;
     margin: 20px 0px;
 }
+/* Services section */
+.services{
+    background-color: #f8f8f8;
+}
+.service.about-hardy {
+    background-color: #f8f8f8;
+}
+.serve-text{
+    margin: 20px 0px;
+}
+.serve-text {
+    margin: 50px 0px !important;
+}
+.ser-vices {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    text-align: left;
+    width: 180px;
+    box-shadow: 0px 0px 10px #878787;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Resume */
+
+.resume{
+    margin: 80px 0px;
+}
+.resume .head{
+    text-align: center;
+    margin: 50px 0px;
+}
+.clearFix::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.qulafication {
+    float: left;
+    width: 500px;
+    padding: 50px 0px;
+}
+.experience {
+    float: right;
+    width: 500px;
+    padding: 50px 0px;
+}
+.experience h1, .qulafication h1{
+    margin: 10px 0px;
+}
+.degree{
+    margin: 30px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);  
+}
+.degree p{
+    margin-bottom: 10px;
+}
+.resume-btn{
+    text-align: center;
+}
+
+/* Contact */
+
+.contact{
+    background-color: #fff8f3;
+    padding: 100px 0px;
+}
+.social-icons{}
+.social-icons ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.social-icons ul li{
+    list-style-type: none;
+}
+.social-icons ul li a{
+    text-decoration: none;
+}
+.social-media{
+    float: left;
+    width: 500px;
+}
+.form{
+    float: right;
+    width: 500px;
+}
+form input{
+    padding: 10px;
+    margin: 5px 0px; 
+    width: 100%;
+}
