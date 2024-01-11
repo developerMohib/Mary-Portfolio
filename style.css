@@ -4,12 +4,10 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-
 .container{
     max-width: 1100px;
     margin: auto;
 }
-
 img{
     max-width: 100%;
 }
@@ -21,7 +19,9 @@ img{
     border-radius: 4px;
 }
 /* Header Custom CSS */
-
+.logo {
+    font-size: 2rem;
+}
 nav{
     display: flex;
     align-items: center;
@@ -41,10 +41,10 @@ nav .menu ul{
 nav .menu ul li{
     list-style-type: none;
 }
-nav .menu ul li a{ 
+nav .menu ul li a {
     padding: 10px 15px;
     text-decoration: none;
-
+    font-size: 1.2rem;
 }
 /* Hero Section */
 header{
@@ -88,8 +88,14 @@ header{
     text-align: center;
     padding: 100px ;
 }
+.about-hardy h2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
 .about-hardy p {
-    margin: 20px 0px;
+    margin: 20px 0px;    
+    line-height: 1.5em;
+
 }
 .about-me{
     display: flex;
@@ -115,7 +121,7 @@ header{
 }
 .card {
     text-align: left;
-    width: 180px;
+    width: 23%;
     box-shadow: 0px 0px 10px #878787;
     padding: 10px;
     border-radius: 5px;
@@ -126,10 +132,12 @@ header{
 .resume{
     margin: 80px 0px;
 }
-.resume .head{
+.resume h2.head {
+    font-size: 3rem;
+    font-weight: 800;
     text-align: center;
-    margin: 50px 0px;
 }
+
 .clearFix::after{
     content: " ";
     clear: both;
@@ -137,12 +145,12 @@ header{
 }
 .qulafication {
     float: left;
-    width: 500px;
+    width: 49%;
     padding: 50px 0px;
 }
 .experience {
     float: right;
-    width: 500px;
+    width: 49%;
     padding: 50px 0px;
 }
 .experience h1, .qulafication h1{
@@ -152,8 +160,14 @@ header{
     margin: 30px 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.24);  
 }
+.degree h3 {
+    color: rgb(97, 97, 97);
+    font-weight: 300;
+    font-size: 1.2rem;
+}
 .degree p{
     margin-bottom: 10px;
+    color: #646464;
 }
 .resume-btn{
     text-align: center;
@@ -169,20 +183,26 @@ header{
 .social-icons ul{
     display: flex;
     justify-content: flex-start;
+    gap: 1.5em;
 }
 .social-icons ul li{
     list-style-type: none;
 }
-.social-icons ul li a{
+.social-icons ul li a {
     text-decoration: none;
+    margin: 10px 0px;
+    display: inline-block;
+}
+.social-icons ul li a img{
+    width: 40px;
 }
 .social-media{
     float: left;
-    width: 500px;
+    width: 50%;
 }
-.form{
+.form {
     float: right;
-    width: 500px;
+    width: 50%;
 }
 form input, textarea{
     padding: 10px;
